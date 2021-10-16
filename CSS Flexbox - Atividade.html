@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Flexbox</title>
+    <style>
+        .display-flex {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-bottom: 1px solid gray;
+        }
+
+        .topo {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            border-bottom: 1px solid gray;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .lateral {
+            display: flex;
+            align-items: center;
+        }
+
+        .padding {
+            padding-right: 50px ;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 800;
+            color: rgb(80, 113, 224)
+        }
+
+        nav div {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="topo">
+        <div class ="lateral">
+            <div class="padding">Menu</div>
+            <div>Email</div>
+        </div>
+        <div class="logo">globo.com</div>
+        <div class="lateral">
+            <div class="padding">Rivaldo</div>
+            <div>Pesquisa</div>
+        </div>
+    </nav>
+    <nav class="display-flex">
+        <div>g1</div>
+        <div>o globo</div>
+        <div>valor</div>
+        <div>cartola</div>
+        <div>globoplay</div>
+        <div>dropz</div>
+        <div>gshow</div>
+        <div>quem</div>
+        <div>receitas</div>
+    </nav>
+
+</body>
+
+</html>
