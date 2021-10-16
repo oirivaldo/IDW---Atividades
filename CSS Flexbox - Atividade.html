@@ -13,12 +13,29 @@
             border-bottom: 1px solid gray;
         }
 
+        .corpo-flex {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .conteudo-titulo {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            color: red;
+            font-family: 'Raleway';
+            font-weight: 700;
+        }
+
         .topo {
             height: 50px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Raleway';
             font-weight: 700;
             border-bottom: 1px solid gray;
             margin-left: 10%;
@@ -31,7 +48,13 @@
         }
 
         .padding {
-            padding-right: 50px ;
+            padding-right: 50px;
+        }
+
+        .ConteudoColum {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .logo {
@@ -40,11 +63,27 @@
             color: rgb(80, 113, 224)
         }
 
+        ul {
+            color: black;
+            padding: 0;;
+        }
+
+        h5 {
+            display: flex;
+            margin: 2px;
+        }
+
+        h4 {
+            font-family: 'Raleway';
+            padding: 3px;
+        }
+
         nav div {
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Raleway';
             font-weight: 700;
         }
 
+        
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +94,7 @@
 
 <body>
     <nav class="topo">
-        <div class ="lateral">
+        <div class="lateral">
             <div class="padding">Menu</div>
             <div>Email</div>
         </div>
@@ -76,6 +115,25 @@
         <div>quem</div>
         <div>receitas</div>
     </nav>
+
+    <div class="corpo-flex">
+        <div class="conteudo-titulo">
+            <h1>País registra 526 óbitos por Covid em 24 horas, e média cai pelo 6º dia</h1>
+            <ul>
+                <h5>CPI: relatório deve responsabilizar 63 pessoas por crimes na pandemia</h5>
+                <h5>Entenda quais são os 11 crimes que a CPI deve atribuir a Bolsonaro</h5>
+                <h5>CPI: Senadores do G7 divergem sobre crime de genocídio de indígenas</h5>
+            </ul>
+
+        </div>
+        <div class="conteudoColum">
+            <h4>Vice do Galo detona pedido feito por dirigente do Fla</h3>
+        </div>
+        <div class="conteudoColum">
+            <h4>Anitta comemora divulgação de novo single na Times Square</h3>
+        </div>
+
+    </div>
 
 </body>
 
